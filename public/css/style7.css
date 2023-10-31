@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;500&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;500&family=Prata&family=Raleway:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* @media screen and (min-width: 1224px) { */
+
+    *,
+    *::after,
+    *::before {
+        margin: 0;
+        padding: 0;
+    }
+    *::selection{
+        background-color: black;
+        color: white;
+    }
+    body{
+        height: 100%;
+    }
+    
+    .header {
+        min-width: 1224px;
+        height: 69px;
+        margin-top: 15px;
+        padding-bottom: 16px;
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    }
+
+    .header .logo {
+        width: 76px;
+        height: 51px;
+        margin-top: 15px;
+        margin-left: 160px;
+    }
+
+    .header .logo img {
+        width: 106px;
+        height: 51px;
+    }
+
+
+    #menu {
+        justify-self: right;
+        list-style-type: none;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        margin-top: 32px;
+        margin-left: 2vw;
+    }
+
+    #menu li {
+        float: left;
+        margin-left: 43px;
+    }
+
+    #menu li a {
+        text-decoration: none;
+        color: black;
+    }
+    .exit{
+        text-decoration: underline;
+        font-weight: 700;
+    }
+    main{
+        min-height: 82vh;
+        margin-left: 160px;
+        width: 74vw;
+        margin-bottom: 4vh;
+        font-family: 'Open Sans', sans-serif;
+    }
+    main .warning{
+        margin-top: 5vh;
+    }
+    footer {
+        flex: 1 0 auto;
+        width: auto;
+        height: 71px;
+        background: #000000;
+        color: white;
+        font-family: 'Prata', serif;
+        font-size: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    footer div{
+        margin-top: 3vh;
+        margin-left: -4.5vw;
+    }
+    footer div::selection{
+        background-color: #fff;
+        color: black;
+    }
+    
+/* } */

@@ -1,0 +1,72 @@
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 12vh;
+}
+.form .form-horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form .form-horizontal .block:last-child{
+    margin-left: 4vw;
+}
+.form .block .form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#special{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#blockSelect{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.form-group label{
+    margin-bottom: 1vh;
+}
+.form-group input[type="file"]{
+    margin-top: 3vh;
+    margin-left: 7vh;
+    /* width: 20vw; */
+    font-size: 2vh;
+}
+.form-group input[type='file']::file-selector-button{
+    background-color: black;
+    color: rgb(245, 245, 245);
+    border: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 3vh;
+}
+
+.form-group select{
+    width: 20vw;
+    
+    height: 5vh;
+    font-size: 2vh;
+    margin-bottom: 3vh;
+}
+.btn-sbm{
+    display: flex;
+    justify-content: center;
+}
+.btn-sbm .send{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 6vh;
+    border: 0px;
+    color: white;
+    background-color: black;
+}
+#display_image{
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+ }

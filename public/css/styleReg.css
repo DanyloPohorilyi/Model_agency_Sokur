@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;500&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;500&family=Prata&family=Raleway:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+}
+*::selection{
+    background-color: black;
+    color: white;
+}
+body{
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Prata', serif; */
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 46vh;
+    width: 25vw;
+    border-radius: 2%;
+    background-color: black;
+    color: white;
+}
+.container h2{
+    margin-bottom: 2vh;
+    text-align: center;
+    text-transform: uppercase;
+}
+.container a{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1vh;
+    color: white;
+}
+.container .form-control{
+    margin-bottom: 1vh;
+}
+.container input{
+    padding-left: 5px;
+    font-size: 15px;
+    border: 0;
+    height: 4vh;
+    width: 15vw;
+}
+.sbm-btn{
+    margin-top: 2vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    border: 0;
+    height: 4vh;
+    width: 100%;
+    text-transform: uppercase;
+}
+.sbm-btn:hover{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.logo{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}

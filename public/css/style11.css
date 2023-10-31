@@ -1,0 +1,46 @@
+.form{
+    display: flex;
+    justify-content: center;
+    padding-top: 22vh;
+}
+.form .block .form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form .btn-sbm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.form-group label{
+    margin-bottom: 1vh;
+}
+.form-group input[type="file"]{
+    margin-bottom: 3vh;
+    /* width: 20vw; */
+    font-size: 2vh;
+}
+.form-group input[type='file']::file-selector-button{
+    background-color: black;
+    color: rgb(245, 245, 245);
+    border: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 3vh;
+}
+
+.form-group select{
+    width: 20vw;
+    height: 5vh;
+    font-size: 2vh;
+    margin-bottom: 3vh;
+}
+
+.btn-sbm .send{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 10vw;
+    height: 5vh;
+    border: 0px;
+    color: white;
+    background-color: black;
+}

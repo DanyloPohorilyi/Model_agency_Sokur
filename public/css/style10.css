@@ -1,0 +1,11 @@
+.gallery{
+    display: flex;
+    flex-direction: row;
+}
+.gallery img{
+    height: 40vh;
+    width: 13vw;
+    margin-right: 1vw;
+    object-fit: cover;
+    object-position: top;
+}

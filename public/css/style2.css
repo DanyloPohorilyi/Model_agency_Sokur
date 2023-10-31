@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100;500&family=Oswald&family=Prata&family=Raleway:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Oswald&display=swap");
+/* @media screen and (min-width: 1224px) { */
+main {
+    margin-left: 148px;
+    min-width: 74vw;
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+.card img {
+    width: 255px;
+    height: 322px;
+    filter: grayscale(0.75);
+    transition: 1s;
+    object-fit: cover;
+    object-position: 100% 0;
+}
+
+.card .text {
+    position: absolute;
+    opacity: 0;
+    top: 0%;
+    padding: 5px;
+    width: 113%;
+    line-height: 20px;
+    z-index: 3;
+    transition: 1s;
+}
+
+.text .name {
+    font-size: 24px;
+    font-family: "Oswald", sans-serif;
+    margin-top: 26px;
+    margin-left: 29px;
+}
+
+.text .parametrs {
+    font-size: 18px;
+    line-height: 28px;
+    font-family: "Jura", sans-serif;
+    margin-left: 29px;
+    margin-top: 1vh;
+}
+
+.text .parametrs .height::before {
+    content: "height: ";
+}
+
+.text .parametrs .bust::before {
+    content: "breast: ";
+}
+
+.text .parametrs .waist::before {
+    content: "waist: ";
+}
+
+.text .parametrs .hips::before {
+    content: "hips: ";
+}
+
+.text .parametrs .eye::before {
+    content: "eyes: ";
+}
+
+.text .parametrs .hair::before {
+    content: "hair: ";
+}
+.text .parametrs .shoes::before {
+    content: "shoes: ";
+}
+
+.card:hover .text {
+    opacity: 1;
+}
+.card:hover img {
+    transition: 5s;
+    transition-timing-function: cubic-bezier(1, 0.01, 0.43, 0.985);
+    filter: opacity(35%);
+}
+
+/* } */
